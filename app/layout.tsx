@@ -11,7 +11,14 @@ export const metadata: Metadata = {
       : "http://localhost:3000"
   ),
   openGraph: {
-    images: ["/og-image.jpg"],
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 2848,
+        height: 1504,
+        alt: "Astro and Maggie",
+      },
+    ],
   },
 };
 
