@@ -5,22 +5,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Happy Holidays!",
   description: "Astro & Maggie",
-  metadataBase: new URL(
-    process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000"
-  ),
   openGraph: {
-    url: "/",
-    type: "website",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 2848,
-        height: 1504,
-        alt: "Astro and Maggie",
-      },
-    ],
+    images: ["/og-image.jpg"],
   },
 };
 
