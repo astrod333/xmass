@@ -11,6 +11,8 @@ export const metadata: Metadata = {
       : "http://localhost:3000"
   ),
   openGraph: {
+    url: "/",
+    type: "website",
     images: [
       {
         url: "/og-image.jpg",
